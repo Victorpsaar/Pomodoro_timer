@@ -1,14 +1,14 @@
 import * as zod from 'zod'
-import { zodResolver } from "@hookform/resolvers/zod";
+import { zodResolver } from '@hookform/resolvers/zod'
 
-import { HandPalm, Play } from "phosphor-react";
-import { NewCycleForm } from "./components/NewCycleForm";
-import { Countdown } from "./components/Countdown";
-import { FormProvider, useForm } from "react-hook-form";
+import { HandPalm, Play } from 'phosphor-react'
+import { NewCycleForm } from './components/NewCycleForm'
+import { Countdown } from './components/Countdown'
+import { FormProvider, useForm } from 'react-hook-form'
 
-import { HomeContainer, StartButton, StopButton } from "./styles";
-import { useContext } from 'react';
-import { CycleContext } from '../../context/CycleContext';
+import { HomeContainer, StartButton, StopButton } from './styles'
+import { useContext } from 'react'
+import { CycleContext } from '../../context/CycleContext'
 
 type NewCycleFormData = zod.infer<typeof newCycleValidation>
 

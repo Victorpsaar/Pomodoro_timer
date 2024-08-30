@@ -22,5 +22,12 @@ export default tseslint.config({
       'warn',
       { allowConstantExport: true },
     ],
+    'semi': ['warn', 'never'],
+    'quotes': ['error', 'single'],
+    'indent': ['error', 2],
+    'block-spacing': 'error',
+    'comma-spacing': ['error', { 'before': false, 'after': true}],
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-empty-object-type': 'off',
   },
 })

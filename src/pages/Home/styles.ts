@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HomeContainer = styled.main`
   flex: 1;
@@ -31,7 +31,7 @@ export const BaseButton = styled.button`
 
   cursor: pointer;
 
-  color: ${props => props.theme["gray-100"]};
+  color: ${props => props.theme['gray-100']};
 
   &:disabled {
     opacity: 0.7;
@@ -40,16 +40,16 @@ export const BaseButton = styled.button`
 `
 
 export const StartButton = styled(BaseButton)`
-  background-color: ${props => props.theme["green-500"]};
+  background-color: ${props => props.theme['green-500']};
 
   &:not(:disabled):hover {
-    background-color: ${props => props.theme["green-700"]};
+    background-color: ${props => props.theme['green-700']};
   }
 `
 export const StopButton = styled(BaseButton)`
-  background-color: ${props => props.theme["red-500"]};
+  background-color: ${props => props.theme['red-500']};
   
   &:not(:disabled):hover {
-    background-color: ${props => props.theme["red-700"]};
+    background-color: ${props => props.theme['red-700']};
   }
 `
