@@ -1,6 +1,6 @@
 import { HeaderContainer } from './styles'
 import { Scroll, Timer } from 'phosphor-react'
-import { NavLink } from 'React-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import LogoIgnite from '../../assets/LogoIgnite.svg'
 
